@@ -17,5 +17,53 @@ body {
 .pin {
     position:absolute;
     top: -150px;
-    left: 45%;
+    left: 48%;
+    color: #fff;
+}
+.lines {
+    position: relative;
+    top: 150px;
+    color: #ccc;
+}
+.lines::before {
+    content: "";
+    display: block;
+    width: 163px;
+    height: 2px;
+    left: 7%;
+    background-color: #ddd;
+    position: absolute;
+    top: -220px;
+    transform: rotate(123deg);
+}
+.lines::after {
+    content: "";
+    display: block;
+    width: 163px;
+    height: 2px;
+    right: 7%;
+    background-color: #ddd;
+    position: absolute;
+    top: -220px;
+    transform: rotate(-123deg);
+}
+.banner:hover {
+    transform: rotate(-8deg);
+}
+.banner img {
+    width: 80px;
+    position: absolute;
+    right: -40px;
+    top: -50px;
+    transform: rotate(30deg);
+}
+.cherry-cream-soda-regular {
+  font-family: "Cherry Cream Soda", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.story-script-regular {
+  font-family: "Story Script", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
