@@ -67,3 +67,16 @@ body {
   font-weight: 500;
   font-style: normal;
 }
+.closed h1 {
+    background-color: #ccc;
+    width: 300px;
+    padding: 5px 0;
+    font-family: "Cherry Cream Soda", system-ui;
+}
+.closed p, .closed h2 {
+    background-color: #fff;
+    width: 300px;
+    font-size: 35px;
+    line-height: .02;
+    font-family: "Story Script", sans-serif;
+}
