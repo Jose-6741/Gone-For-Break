@@ -80,3 +80,6 @@ body {
     line-height: .02;
     font-family: "Story Script", sans-serif;
 }
+.closed p {
+    font-size: 15px;
+}
